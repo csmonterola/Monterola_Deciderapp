@@ -7,13 +7,15 @@ class HomeView extends StatefulWidget {
   State<HomeView> createState() => _HomeViewState();
 }
 
+
+
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         foregroundColor: Colors.black,
-        title: Text("Decider App"),
+        title: Text("Decider Appp"),
         backgroundColor: Colors.orangeAccent,
         actions: [
 
